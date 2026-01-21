@@ -3,7 +3,7 @@ import json
 import os
 import google.generativeai as genai
 
-app = Flask(__name__)
+app = Flask(__name__)  
 
 # --- Gemini AI Setup ---
 # It's highly recommended to set your API key as an environment variable
